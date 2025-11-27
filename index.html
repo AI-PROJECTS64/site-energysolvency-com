@@ -176,6 +176,28 @@
       .hero h1{font-size:34px}
     }
     .ico{width:16px;height:16px;display:inline-block;vertical-align:middle}
+
+    /* Bouton Concept Note standard (BCIaccess.com) */
+    .btn.btn-concept{
+      background:transparent;
+      color:var(--accent);
+      border-radius:999px;
+      border:1px solid rgba(143,176,255,0.8);
+      box-shadow:0 0 0 1px rgba(11,18,32,0.9);
+      padding:10px 18px;
+      font-size:14px;
+    }
+    .btn.btn-concept:hover{
+      text-decoration:none;
+      background:rgba(143,176,255,0.04);
+    }
+    .btn.btn-concept .cn-icon{
+      width:14px;
+      height:14px;
+      border-radius:4px;
+      background:linear-gradient(135deg,#7fd0ff,#4a8dff);
+      display:inline-block;
+    }
   </style>
 </head>
 <body>
@@ -332,6 +354,10 @@
       <div class="cta">
         <a class="btn primary" href="mailto:contact@energysolvency.com?subject=EnergySolvency.com%20-%20NDA%20%2F%20Offer&body=Hello%2C%0D%0A%0D%0AI%27d%20like%20to%20request%20your%20NDA%20and%2For%20submit%20an%20offer%20for%20EnergySolvency.com.%0D%0ACompany%3A%20%0D%0AName%20%2F%20Role%3A%20%0D%0AIntended%20use%3A%20%0D%0ABudget%20range%3A%20%0D%0ABest%2C">
           Submit an offer / Request NDA
+        </a>
+        <a class="btn btn-concept" href="/concept-note.html">
+          <span class="cn-icon"></span>
+          Concept Note
         </a>
         <a class="btn" href="#value-en">Why this name?</a>
         <a class="btn" href="https://www.linkedin.com/company/energysolvency" target="_blank" rel="noopener" aria-label="Open EnergySolvency on LinkedIn">
